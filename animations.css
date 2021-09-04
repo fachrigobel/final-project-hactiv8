@@ -1,0 +1,50 @@
+nav ul li a:hover {
+  color: rgb(255, 227, 227);
+}
+
+#btn-info-lebih-lanjut:hover {
+  border: 1px solid #ffe3e3;
+  background-color: #ffe3e3;
+  color: black;
+}
+
+#btn-hubungi-saya:hover {
+  border: 1px solid #ffe3e3;
+  background-color: #ffe3e3;
+}
+
+#contents-portfolio img:hover {
+  top: -10px;
+  box-shadow: 0px 25px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  top: -10px;
+  box-shadow: 0px 25px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover > a {
+  background-color: #ffe3e3;
+  border-top: 1px solid #ffe3e3;
+}
+
+form button:hover {
+  background-color: #93b5c6;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#contents-team > div:hover > .hide {
+  height: 100%;
+}
+
+#contents-team > div:hover > .hide > h4,
+#contents-team > div:hover > .hide > p {
+  opacity: 100;
+  color: #fff;
+}
+
+#contents-team > div:hover > h4,
+#contents-team > div:hover > p {
+  opacity: 0;
+}
